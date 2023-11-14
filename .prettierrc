@@ -10,5 +10,6 @@
       "multiline": "always",
       "singleline": "never"
     }
-  ]
+  ],
+  "bracketSpacing": true
 }

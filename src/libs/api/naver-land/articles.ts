@@ -1,4 +1,4 @@
-import {toQueryString} from "@/libs/utils/to-query-string";
+import {toQueryString} from "@/src/libs/utils/to-query-string";
 
 export async function getArticles({page, pageSize}: {
     page: number,
