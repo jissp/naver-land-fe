@@ -1,16 +1,14 @@
-import Head from 'next/head'
+import Header from '@/src/components/layouts/default/header';
 
 type LayoutProps = {
-    children: React.ReactNode
+    children: React.ReactNode;
 }
 
 export default function Layout({ children }: LayoutProps) {
     return (
         <>
-            <Head>
-                <title>Layouts Example</title>
-            </Head>
+            <Header></Header>
             <main>{children}</main>
         </>
-    )
+    );
 }

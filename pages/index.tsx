@@ -1,5 +1,7 @@
-export default function Index({ test }) {
+export default function Index() {
     return (
-        test
+        <>
+            content
+        </>
     );
 }
