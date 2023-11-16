@@ -1,7 +1,9 @@
+import Input from '@/src/components/input/input';
+
 export default function Index() {
     return (
         <>
-            content
+            <Input value={"dfsfs"}></Input>
         </>
     );
 }

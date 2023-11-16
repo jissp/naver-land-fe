@@ -1,4 +1,5 @@
 import Header from '@/src/components/layouts/default/header';
+import { BgBoxStyled } from '@/src/components/layouts/default/styled/bg-box.styled';
 
 type LayoutProps = {
     children: React.ReactNode;
@@ -7,8 +8,10 @@ type LayoutProps = {
 export default function Layout({ children }: LayoutProps) {
     return (
         <>
-            <Header></Header>
-            <main>{children}</main>
+            <BgBoxStyled>
+                <Header></Header>
+                <main>{children}</main>
+            </BgBoxStyled>
         </>
     );
 }
